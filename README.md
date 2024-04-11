@@ -7,7 +7,7 @@ The AI assistant is built using Python and is designed to perform a variety of t
 
 ## Features
 - Natural language understanding: The AI assistant is capable of understanding and processing natural language queries.
-- Home automation: It can perform various tasks such as controlling smart devices with the help of python.
+- Home automation: It can perform various tasks such as controlling smart devices with the help of Arduino.
 - Extensibility: The codebase is designed to be modular and easily extensible, allowing developers to add new features and functionalities.
 
 ## Setup 
