@@ -11,11 +11,10 @@ The AI assistant is built using Python and is designed to perform a variety of t
 - Extensibility: The codebase is designed to be modular and easily extensible, allowing developers to add new features and functionalities.
 
 ## Setup 
--Install all the required library.
-
--Install the chrome according to your chrome version.
+- Install all the required library.
+- Install the chrome according to your chrome version.
 
 ## Warning ⚠️ 
--Wrong wire connection can leads to short-circuit and may damage your whole system.
+- Wrong wire connection can leads to short-circuit and may damage your whole system.
 
 
