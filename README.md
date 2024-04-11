@@ -12,6 +12,7 @@ The AI assistant is built using Python and is designed to perform a variety of t
 
 ## Setup 
 -Install all the required library.
+
 -Install the chrome according to your chrome version.
 
 ## Warning ⚠️ 
