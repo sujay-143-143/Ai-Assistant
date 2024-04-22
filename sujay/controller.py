@@ -35,12 +35,12 @@ class Main(QMainWindow):
         super().__init__()
         self.u = Ui_MainWindow()
         self.u.setupUi(self)
-        self.u.movie = QtGui.QMovie("C:\\Users\\sujay\\Desktop\\python\\sujay\\Resources\\guanxian.gif")
+        self.u.movie = QtGui.QMovie("C:\\Users\\sujay\\Desktop\\Projects\\Ai-Assistant\\Resources\\guanxian.gif")
         self.u.label.setMovie(self.u.movie)
         self.u.movie.start()
         self.showMaximized()
         setup()
-        QTimer.singleShot(5000, self.show_dd)  # Show dd after 10 seconds
+        QTimer.singleShot(5000, self.show_dd)  # Show dd after 5 seconds
 
     def show_dd(self):
         self.ww = dd()
@@ -63,10 +63,10 @@ class dd(QMainWindow):
         self.combo_box.currentIndexChanged.connect(self.onComboBoxIndexChanged)
 
         self.ui.lineEdit.returnPressed.connect(self.print_text)
-        self.ui.movie = QtGui.QMovie("C:\\Users\\sujay\\Desktop\\python\\sujay\\Resources\\OGC.gif")
+        self.ui.movie = QtGui.QMovie("C:\\Users\\sujay\\Desktop\\Projects\\Ai-Assistant\\Resources\\OGC.gif")
         self.ui.label_7.setMovie(self.ui.movie)
         self.ui.movie.start()
-        self.ui.movie = QtGui.QMovie("C:\\Users\\sujay\\Desktop\\python\\sujay\\Resources\\9116f7fd184238ada99fdff9e2f2e3ac.gif")
+        self.ui.movie = QtGui.QMovie("C:\\Users\\sujay\\Desktop\\Projects\\Ai-Assistant\\Resources\\9116f7fd184238ada99fdff9e2f2e3ac.gif")
         self.ui.label_10.setMovie(self.ui.movie)
         self.ui.movie.start()
         self.showMaximized()
@@ -118,7 +118,7 @@ class smart(QMainWindow):
         self.u.pushButton_3.clicked.connect(self.off)
         self.u.pushButton_4.clicked.connect(self.offa)
         self.u.pushButton_5.clicked.connect(self.back)
-        self.u.movie = QtGui.QMovie("C:\\Users\\sujay\\Desktop\\python\\sujay\\Resources\\digitalloop.gif")
+        self.u.movie = QtGui.QMovie("C:\\Users\\sujay\\Desktop\\Projects\\Ai-Assistant\\Resources\\digitalloop.gif")
         self.u.label.setMovie(self.u.movie)
         self.u.movie.start()
         self.showMaximized()
