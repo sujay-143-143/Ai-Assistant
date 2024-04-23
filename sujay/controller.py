@@ -90,7 +90,7 @@ class dd(QMainWindow):
             voice8()
 
     def A(self):
-        webbrowser.open('https://lexica.art/')
+        webbrowser.open('https://www.bing.com/images/create?FORM=GENILP')
     
     def B(self):
         webbrowser.open('https://gamma.app/create/generate')
@@ -107,6 +107,8 @@ class dd(QMainWindow):
         text = self.ui.lineEdit.text()
         self.ui.lineEdit.clear()
         command(text)
+        
+
 
 class smart(QMainWindow):
     def __init__(self):
